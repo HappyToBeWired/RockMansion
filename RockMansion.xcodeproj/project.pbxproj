@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEC186A1DA795E000CC0686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC18691DA795E000CC0686 /* AppDelegate.swift */; };
+		FAEC186C1DA795E000CC0686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC186B1DA795E000CC0686 /* ViewController.swift */; };
+		FAEC186F1DA795E100CC0686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEC186D1DA795E100CC0686 /* Main.storyboard */; };
+		FAEC18721DA795E100CC0686 /* RockMansion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAEC18701DA795E100CC0686 /* RockMansion.xcdatamodeld */; };
+		FAEC18741DA795E100CC0686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEC18731DA795E100CC0686 /* Assets.xcassets */; };
+		FAEC18771DA795E100CC0686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEC18751DA795E100CC0686 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAEC18661DA795E000CC0686 /* RockMansion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockMansion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEC18691DA795E000CC0686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEC186B1DA795E000CC0686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEC186E1DA795E100CC0686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEC18711DA795E100CC0686 /* RockMansion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RockMansion.xcdatamodel; sourceTree = "<group>"; };
+		FAEC18731DA795E100CC0686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEC18761DA795E100CC0686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEC18781DA795E100CC0686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEC18631DA795E000CC0686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEC185D1DA795E000CC0686 = {
+			isa = PBXGroup;
+			children = (
+				FAEC18681DA795E000CC0686 /* RockMansion */,
+				FAEC18671DA795E000CC0686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEC18671DA795E000CC0686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC18661DA795E000CC0686 /* RockMansion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEC18681DA795E000CC0686 /* RockMansion */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC18691DA795E000CC0686 /* AppDelegate.swift */,
+				FAEC186B1DA795E000CC0686 /* ViewController.swift */,
+				FAEC186D1DA795E100CC0686 /* Main.storyboard */,
+				FAEC18731DA795E100CC0686 /* Assets.xcassets */,
+				FAEC18751DA795E100CC0686 /* LaunchScreen.storyboard */,
+				FAEC18781DA795E100CC0686 /* Info.plist */,
+				FAEC18701DA795E100CC0686 /* RockMansion.xcdatamodeld */,
+			);
+			path = RockMansion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEC18651DA795E000CC0686 /* RockMansion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEC187B1DA795E100CC0686 /* Build configuration list for PBXNativeTarget "RockMansion" */;
+			buildPhases = (
+				FAEC18621DA795E000CC0686 /* Sources */,
+				FAEC18631DA795E000CC0686 /* Frameworks */,
+				FAEC18641DA795E000CC0686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockMansion;
+			productName = RockMansion;
+			productReference = FAEC18661DA795E000CC0686 /* RockMansion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEC185E1DA795E000CC0686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alex Gallacher";
+				TargetAttributes = {
+					FAEC18651DA795E000CC0686 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LKBV6G4833;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAEC18611DA795E000CC0686 /* Build configuration list for PBXProject "RockMansion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEC185D1DA795E000CC0686;
+			productRefGroup = FAEC18671DA795E000CC0686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEC18651DA795E000CC0686 /* RockMansion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEC18641DA795E000CC0686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC18771DA795E100CC0686 /* LaunchScreen.storyboard in Resources */,
+				FAEC18741DA795E100CC0686 /* Assets.xcassets in Resources */,
+				FAEC186F1DA795E100CC0686 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEC18621DA795E000CC0686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC18721DA795E100CC0686 /* RockMansion.xcdatamodeld in Sources */,
+				FAEC186C1DA795E000CC0686 /* ViewController.swift in Sources */,
+				FAEC186A1DA795E000CC0686 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAEC186D1DA795E100CC0686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEC186E1DA795E100CC0686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEC18751DA795E100CC0686 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEC18761DA795E100CC0686 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEC18791DA795E100CC0686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEC187A1DA795E100CC0686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEC187C1DA795E100CC0686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LKBV6G4833;
+				INFOPLIST_FILE = RockMansion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unstucktimeline.RockMansion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAEC187D1DA795E100CC0686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LKBV6G4833;
+				INFOPLIST_FILE = RockMansion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unstucktimeline.RockMansion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEC18611DA795E000CC0686 /* Build configuration list for PBXProject "RockMansion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEC18791DA795E100CC0686 /* Debug */,
+				FAEC187A1DA795E100CC0686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEC187B1DA795E100CC0686 /* Build configuration list for PBXNativeTarget "RockMansion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEC187C1DA795E100CC0686 /* Debug */,
+				FAEC187D1DA795E100CC0686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAEC18701DA795E100CC0686 /* RockMansion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAEC18711DA795E100CC0686 /* RockMansion.xcdatamodel */,
+			);
+			currentVersion = FAEC18711DA795E100CC0686 /* RockMansion.xcdatamodel */;
+			path = RockMansion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAEC185E1DA795E000CC0686 /* Project object */;
+}
