@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		FAEC186A1DA795E000CC0686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC18691DA795E000CC0686 /* AppDelegate.swift */; };
-		FAEC186C1DA795E000CC0686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC186B1DA795E000CC0686 /* ViewController.swift */; };
+		FAEC186C1DA795E000CC0686 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC186B1DA795E000CC0686 /* MainVC.swift */; };
 		FAEC186F1DA795E100CC0686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEC186D1DA795E100CC0686 /* Main.storyboard */; };
 		FAEC18721DA795E100CC0686 /* RockMansion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAEC18701DA795E100CC0686 /* RockMansion.xcdatamodeld */; };
 		FAEC18741DA795E100CC0686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEC18731DA795E100CC0686 /* Assets.xcassets */; };
 		FAEC18771DA795E100CC0686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEC18751DA795E100CC0686 /* LaunchScreen.storyboard */; };
+		FAEC18801DA8E90E00CC0686 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAEC187F1DA8E90E00CC0686 /* still time.ttf */; };
+		FAEC18821DA8ED4F00CC0686 /* VideoPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC18811DA8ED4F00CC0686 /* VideoPlayVC.swift */; };
+		FAEC18861DA90A7A00CC0686 /* PartyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC18851DA90A7A00CC0686 /* PartyCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAEC18661DA795E000CC0686 /* RockMansion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockMansion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEC18691DA795E000CC0686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAEC186B1DA795E000CC0686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEC186B1DA795E000CC0686 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		FAEC186E1DA795E100CC0686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAEC18711DA795E100CC0686 /* RockMansion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RockMansion.xcdatamodel; sourceTree = "<group>"; };
 		FAEC18731DA795E100CC0686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEC18761DA795E100CC0686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAEC18781DA795E100CC0686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEC187F1DA8E90E00CC0686 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		FAEC18811DA8ED4F00CC0686 /* VideoPlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayVC.swift; sourceTree = "<group>"; };
+		FAEC18851DA90A7A00CC0686 /* PartyCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		FAEC18681DA795E000CC0686 /* RockMansion */ = {
 			isa = PBXGroup;
 			children = (
+				FAEC18841DA90A1800CC0686 /* View */,
+				FAEC18831DA909F900CC0686 /* Model */,
+				FAEC187E1DA7A2BD00CC0686 /* Controller */,
 				FAEC18691DA795E000CC0686 /* AppDelegate.swift */,
-				FAEC186B1DA795E000CC0686 /* ViewController.swift */,
 				FAEC186D1DA795E100CC0686 /* Main.storyboard */,
 				FAEC18731DA795E100CC0686 /* Assets.xcassets */,
+				FAEC187F1DA8E90E00CC0686 /* still time.ttf */,
 				FAEC18751DA795E100CC0686 /* LaunchScreen.storyboard */,
 				FAEC18781DA795E100CC0686 /* Info.plist */,
 				FAEC18701DA795E100CC0686 /* RockMansion.xcdatamodeld */,
 			);
 			path = RockMansion;
+			sourceTree = "<group>";
+		};
+		FAEC187E1DA7A2BD00CC0686 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC18811DA8ED4F00CC0686 /* VideoPlayVC.swift */,
+				FAEC186B1DA795E000CC0686 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FAEC18831DA909F900CC0686 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAEC18841DA90A1800CC0686 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC18851DA90A7A00CC0686 /* PartyCellTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEC18771DA795E100CC0686 /* LaunchScreen.storyboard in Resources */,
+				FAEC18801DA8E90E00CC0686 /* still time.ttf in Resources */,
 				FAEC18741DA795E100CC0686 /* Assets.xcassets in Resources */,
 				FAEC186F1DA795E100CC0686 /* Main.storyboard in Resources */,
 			);
@@ -141,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEC18721DA795E100CC0686 /* RockMansion.xcdatamodeld in Sources */,
-				FAEC186C1DA795E000CC0686 /* ViewController.swift in Sources */,
+				FAEC186C1DA795E000CC0686 /* MainVC.swift in Sources */,
+				FAEC18821DA8ED4F00CC0686 /* VideoPlayVC.swift in Sources */,
 				FAEC186A1DA795E000CC0686 /* AppDelegate.swift in Sources */,
+				FAEC18861DA90A7A00CC0686 /* PartyCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
